@@ -1,0 +1,117 @@
+Model 0
+|--- feature_1 <= 0.50
+|   |--- class: 1
+|--- feature_1 >  0.50
+|   |--- class: 0
+
+Model 1
+|--- feature_0 <= 0.50
+|   |--- feature_6 <= 0.50
+|   |   |--- class: 1
+|   |--- feature_6 >  0.50
+|   |   |--- class: 0
+|--- feature_0 >  0.50
+|   |--- class: 1
+
+Model 2
+|--- feature_1 <= 0.50
+|   |--- class: 1
+|--- feature_1 >  0.50
+|   |--- class: 0
+
+Model 3
+|--- feature_0 <= 0.50
+|   |--- feature_4 <= 0.50
+|   |   |--- feature_6 <= 0.50
+|   |   |   |--- feature_2 <= 0.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- feature_2 >  0.50
+|   |   |   |   |--- class: 1
+|   |   |--- feature_6 >  0.50
+|   |   |   |--- class: 0
+|   |--- feature_4 >  0.50
+|   |   |--- class: 0
+|--- feature_0 >  0.50
+|   |--- class: 1
+
+Model 4
+|--- feature_0 <= 0.50
+|   |--- feature_4 <= 0.50
+|   |   |--- feature_6 <= 0.50
+|   |   |   |--- feature_2 <= 0.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- feature_2 >  0.50
+|   |   |   |   |--- class: 1
+|   |   |--- feature_6 >  0.50
+|   |   |   |--- class: 0
+|   |--- feature_4 >  0.50
+|   |   |--- class: 0
+|--- feature_0 >  0.50
+|   |--- class: 1
+
+Model 5
+|--- feature_1 <= 0.50
+|   |--- class: 1
+|--- feature_1 >  0.50
+|   |--- class: 0
+
+Model 6
+|--- feature_1 <= 0.50
+|   |--- class: 1
+|--- feature_1 >  0.50
+|   |--- class: 0
+
+Model 7
+|--- class: 1
+
+Model 8
+|--- feature_0 <= 0.50
+|   |--- feature_6 <= 0.50
+|   |   |--- class: 1
+|   |--- feature_6 >  0.50
+|   |   |--- class: 0
+|--- feature_0 >  0.50
+|   |--- class: 1
+
+Model 9
+|--- class: 1
+
+Model 10
+|--- feature_0 <= 0.50
+|   |--- class: 0
+|--- feature_0 >  0.50
+|   |--- class: 1
+
+Model 11
+|--- feature_0 <= 0.50
+|   |--- feature_4 <= 0.50
+|   |   |--- feature_6 <= 0.50
+|   |   |   |--- feature_2 <= 0.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- feature_2 >  0.50
+|   |   |   |   |--- class: 1
+|   |   |--- feature_6 >  0.50
+|   |   |   |--- class: 0
+|   |--- feature_4 >  0.50
+|   |   |--- class: 0
+|--- feature_0 >  0.50
+|   |--- class: 1
+
+Model 12
+|--- class: 1
+
+Model 13
+|--- feature_0 <= 0.50
+|   |--- feature_6 <= 0.50
+|   |   |--- class: 1
+|   |--- feature_6 >  0.50
+|   |   |--- class: 0
+|--- feature_0 >  0.50
+|   |--- class: 1
+
+Model 14
+|--- feature_1 <= 0.50
+|   |--- class: 1
+|--- feature_1 >  0.50
+|   |--- class: 0
+
