@@ -49,7 +49,7 @@ def plot_learning_curve(estimator, title, X, y, axes=None, ylim=None, cv=None,
 
     # Plot fit_time vs score
     axes[2].grid()
-    axes[2].plot(fit_times_mean, test_scores_mean, 'o-')
+    axes[2].scatter(fit_times_mean, test_scores_mean)
     axes[2].fill_between(fit_times_mean, test_scores_mean - test_scores_std,
                          test_scores_mean + test_scores_std, alpha=0.1)
     axes[2].set_xlabel("fit_times")
